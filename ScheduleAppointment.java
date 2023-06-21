@@ -43,7 +43,13 @@ import javafx.event.ActionEvent;
 		// TODO Auto-generated method stub
 		
 	}
+
+	  public void cancelButtonThatReturnsToMainMenu(ActionEvent event) throws IOException {
+	        Main m = new Main();
 	  
+	        m.resizeScene("MainMenu.fxml");
+
+	    }
 	  
 	  
 	  
