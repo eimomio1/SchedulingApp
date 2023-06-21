@@ -74,7 +74,7 @@ public class Main extends Application {
 	        stg.show(); //Show scene
 	        mainScene.getWindow().sizeToScene(); //Resize Window screen according to resolution
 	        
-		 ScrollPane scroll = new ScrollPane();
+		
 	
 	 }
 	 
