@@ -22,6 +22,8 @@ public class AfterLogin {
     private Button schedulebutton;
    
    
+	  @FXML
+	  private Button viewappointment;
    
     
     
