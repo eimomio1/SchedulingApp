@@ -31,6 +31,13 @@ import javafx.event.ActionEvent;
 	  @FXML
 	    private DatePicker datePickerBox;
 
+	  @FXML
+	  private ComboBox startComboBox;
+	  
+	  @FXML
+	  private Button cancelButton;
+	  
+
 	
 	public void initialize(URL arg0, ResourceBundle arg1) {
 		// TODO Auto-generated method stub
