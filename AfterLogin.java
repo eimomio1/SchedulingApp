@@ -22,9 +22,30 @@ public class AfterLogin {
     private Button schedulebutton;
    
    
+    
 	  @FXML
 	  private Button viewappointment;
-   
+	  
+	  @FXML
+	  private Button deleteButton;
+	
+
+	  public void hitDeleteButton(ActionEvent event) throws IOException {
+	        Main m = new Main();
+	  
+	        m.resizeScene("DeleteAppointment.fxml");
+
+	    }
+    
+	
+	
+	
+	  public void hitViewAppointment(ActionEvent event) throws IOException {
+	        Main m = new Main();
+	  
+	        m.resizeScene("ViewBookedAppointments.fxml");
+
+	    }
     
     
     
