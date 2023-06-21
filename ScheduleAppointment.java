@@ -26,7 +26,10 @@ import javafx.event.ActionEvent;
 	  private TextField descriptionField;
 	  @FXML
 	  private TextField locationField;
-	@Override
+	 @FXML
+	  private TextField descriptionField1;
+	  @FXML
+	    private DatePicker datePickerBox;
 
 	
 	public void initialize(URL arg0, ResourceBundle arg1) {
