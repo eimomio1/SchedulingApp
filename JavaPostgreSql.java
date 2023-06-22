@@ -18,6 +18,7 @@ public class JavaPostgreSql {
 
         // query
         String query = "INSERT INTO records(username, password) VALUES(?, ?)";
+        
 
         try (Connection con = DriverManager.getConnection(url, user, password);
              PreparedStatement pst = con.prepareStatement(query)) {
