@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.control.TreeTableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFD700;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ModifyAppointment">
+   <children>
+      <VBox prefHeight="262.0" prefWidth="374.0" />
+      <TreeTableView prefHeight="262.0" prefWidth="366.0">
+        <columns>
+          <TreeTableColumn prefWidth="173.0" text="Appointment ID #" />
+          <TreeTableColumn prefWidth="173.0" text="DATE" />
+        </columns>
+      </TreeTableView>
+      <Button layoutX="82.0" layoutY="315.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="122.0" text="Reschedule" />
+      <Button fx:id="mainmenu" layoutX="348.0" layoutY="315.0" mnemonicParsing="false" onAction="#backToMenu" prefHeight="26.0" prefWidth="142.0" text="Main Menu" />
+   </children>
+</AnchorPane>
