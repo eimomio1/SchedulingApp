@@ -3,15 +3,14 @@ package application;
 import java.io.IOException;
 
 import javafx.application.Application;
-import javafx.event.ActionEvent;
+
 import javafx.stage.Stage;
 import javafx.scene.Scene;
 
 import javafx.scene.Parent;
 import javafx.fxml.FXMLLoader;
 
-import javafx.scene.control.ScrollPane;
-import javafx.scene.control.ScrollBar;
+
 
 public class Main extends Application {
 	
@@ -60,7 +59,7 @@ public class Main extends Application {
 	
 	
 	 
-	 public void resizeScene( String fxml) throws IOException {
+	 public void changeScene( String fxml) throws IOException {
 		 
 		
 		 //changing current Scene ( Could be MainMen.fxml)to fit window
@@ -87,3 +86,4 @@ public class Main extends Application {
 	 
 	 
 	
+
