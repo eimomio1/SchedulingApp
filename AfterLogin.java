@@ -33,7 +33,7 @@ public class AfterLogin {
 	  public void hitDeleteButton(ActionEvent event) throws IOException {
 	        Main m = new Main();
 	  
-	        m.resizeScene("DeleteAppointment.fxml");
+	        m.changeScene("DeleteAppointment.fxml");
 
 	    }
     
@@ -43,7 +43,7 @@ public class AfterLogin {
 	  public void hitViewAppointment(ActionEvent event) throws IOException {
 	        Main m = new Main();
 	  
-	        m.resizeScene("ViewBookedAppointments.fxml");
+	        m.changeScene("ViewBookedAppointments.fxml");
 
 	    }
     
@@ -69,7 +69,7 @@ public class AfterLogin {
         Main m = new Main();
        
        
-        m.resizeScene("sample.fxml");
+        m.changeScene("sample.fxml");
      
 
     }
@@ -79,9 +79,20 @@ public class AfterLogin {
     public void hitScheduleButton(ActionEvent event) throws IOException {
         Main m = new Main();
   
-        m.resizeScene("ScheduleAppointment.fxml");
+        m.changeScene("ScheduleAppointment.fxml");
 
     }
+
+
+
+
+	public void hitModifyAppointment(ActionEvent event) throws IOException {
+		
+		 Main m = new Main();
+		  
+	        m.changeScene("ModifyAppointment.fxml");
+		
+	}
     
     
     
