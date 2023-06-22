@@ -44,12 +44,12 @@
                         <Font size="14.0" />
                      </font>
                   </Button>
-                  <Button layoutX="577.0" layoutY="91.0" mnemonicParsing="false" text="Modify Appointment">
+                  <Button fx:id="modifyAppointment" layoutX="577.0" layoutY="91.0" mnemonicParsing="false" onAction="#hitModifyAppointment" text="Modify Appointment">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </Button>
-                  <Button layoutX="607.0" layoutY="121.0" mnemonicParsing="false" text="Delete Appointment">
+                  <Button fx:id="deleteButton" layoutX="607.0" layoutY="121.0" mnemonicParsing="false" onAction="#hitDeleteButton" text="Delete Appointment">
                      <font>
                         <Font size="14.0" />
                      </font>
