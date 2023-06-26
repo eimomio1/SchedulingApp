@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS public.appointments
 
 CREATE TABLE IF NOT EXISTS public.records
 (
-    username character varying(200)
+    username character varying(200),
     password character varying(200)
 );
 
