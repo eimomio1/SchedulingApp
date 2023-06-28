@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS public.records
 CREATE TABLE IF NOT EXISTS public.user_appointments
 (
     user_id bigint NOT NULL,
-    appointment_id bigint NOT NULL
+    name character varying(200) NOT NULL
 );
 
 END;
