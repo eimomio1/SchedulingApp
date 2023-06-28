@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS public.appointments
     starttime character varying(200),
     endtime character varying(200),
     name character varying(200),
-    UNIQUE (starttime, endtime),
+    UNIQUE (name, starttime, endtime),
     PRIMARY KEY (id)
 );
 
