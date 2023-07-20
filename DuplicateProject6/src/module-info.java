@@ -1,4 +1,3 @@
-
 module DuplicateProject {
 	requires javafx.controls;
 	requires javafx.fxml;
